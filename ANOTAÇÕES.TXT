@@ -1,0 +1,18 @@
+
+
+
+Estrutura
+/projeto
+├── app.py
+├── templates
+│   └── index.html
+├── static
+│   └── output
+└── uploads
+
+pip install Flask
+
+
+
+Execute o Flask usando python app.py.
+Acesse http://127.0.0.1:5000 no navegador.

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adicionar Marca D'Água</title>
+</head>
+<body>
+    <h1>Envie um PDF e adicione marca d'água</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="pdf_file">Selecione o PDF:</label>
+        <input type="file" name="pdf_file" required><br><br>
+
+        <label for="texto1">Texto da Marca d'Água 1:</label>
+        <input type="text" name="texto1" placeholder="Texto 1" required><br><br>
+
+        <label for="texto2">Texto da Marca d'Água 2:</label>
+        <input type="text" name="texto2" placeholder="Texto 2" required><br><br>
+
+        <button type="submit">Enviar e Processar</button>
+    </form>
+</body>
+</html>
